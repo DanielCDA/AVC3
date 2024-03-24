@@ -17,6 +17,14 @@ public class Funcionario {
         public void setNome(String nome) {
             this.nome = nome;
         }
+
+        public String getCargo(){
+            return nome;
+        }
+
+        public void setCargo(String cargo){
+            this.cargo= cargo;
+        }
     }
     
 }
