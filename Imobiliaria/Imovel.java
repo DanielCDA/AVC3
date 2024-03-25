@@ -1,5 +1,5 @@
 package Imobiliaria;
-
+//ksjdbhsdh
 public class Imovel {
     protected String  precoDeVenda;
     protected String localizacao;
