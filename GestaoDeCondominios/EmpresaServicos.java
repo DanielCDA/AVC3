@@ -7,19 +7,19 @@ puclic class EmpresaServicos{
         this.tipoServico = tipoServico;
     }
 
-    public void getNome(){
+    public String getNome(){
         return nome;
     }
 
-    public String setNome (String nome){
+    public void setNome (String nome){
         this.nome = nome;
     }
 
-    public void getTipoServico(){
+    public String getTipoServico(){
         return tipoServico;
     }
 
-    public String setTipoServico(String tipoServico){
+    public void setTipoServico(String tipoServico){
         this.tipoServico = tipoServico;
     }
 
