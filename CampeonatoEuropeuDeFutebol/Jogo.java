@@ -10,6 +10,7 @@ public class Jogo {
         this.equipeVisitante = equipeVisitante;
         this.resultado = new int[2]; // inicializar com 0 gols
     }
+    public Jogo(){}
 
     public Equipe getEquipeCasa() {
         return equipeCasa;
