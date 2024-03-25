@@ -14,6 +14,7 @@ public class Pessoa {
         this.contacto = contacto;
         this.email = email;
     }
+    public Pessoa(){}
 
     public String nomeCompleto(){
         return nomeCompleto;
