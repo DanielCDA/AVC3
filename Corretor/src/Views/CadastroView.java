@@ -1,4 +1,4 @@
-package Views;
+package Corretor.src.Views;
 
 public class CadastroView extends BaseView implements BaseViewInterface {
 
