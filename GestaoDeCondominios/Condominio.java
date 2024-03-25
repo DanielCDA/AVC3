@@ -1,4 +1,4 @@
-package AVC3.GestaoDeCondominios;
+//package AVC3.GestaoDeCondominios;
 
 import java.util.ArrayList;
 import java.util.List;
