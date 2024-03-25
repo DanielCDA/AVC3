@@ -16,5 +16,9 @@ public class Main {
         EmpresaServicos empresaServicos2 = new EmpresaServicos("Empresa de Segurança", "Vigilância");
         condominio.adicionarEmpresaServicos(empresaServicos1);
         condominio.adicionarEmpresaServicos(empresaServicos2);
+
+        condominio.emitirBalancete();
+        condominio.gerarRelatórioContas();
+        condominio.gerarOrçamento();
     }
 }
