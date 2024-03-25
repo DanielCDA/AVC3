@@ -7,8 +7,17 @@ public class Condomino {
         this.edificio = edificio;
     }
 
-    public void getNome(){
+    public String getNome(){
         return nome;
     }
-    public String 
+    public void setNome(String nome){
+        this.nome = nome;
+    }
+
+    public String getEdifico(){
+        return edificio;
+    }
+    public void setEdificio(String edificio){
+        this.edificio = edificio;
+    }
 }
