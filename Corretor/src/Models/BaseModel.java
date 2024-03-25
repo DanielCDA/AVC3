@@ -6,6 +6,7 @@ public class BaseModel {
     public BaseModel(int id){
         this.id = id;
     }
+    public BaseModel(){}
 
     public int getId() {
         return id;
