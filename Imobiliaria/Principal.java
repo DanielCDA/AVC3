@@ -54,4 +54,23 @@ public class Principal {
         System.out.println("Email ou senha incorretos.");
     }
 
+    private static void realizarCadastro(Scanner scanner) {
+        if (quantidadeUsuarios >= TAMANHO_MAXIMO) {
+            System.out.println("Limite máximo de usuários atingido.");
+            return;
+        }
+
+        System.out.print("Nome: ");
+        String nome = scanner.next();
+        System.out.print("Email: ");
+        String email = scanner.next();
+        System.out.print("Senha: ");
+        String senha = scanner.next();
+
+        LoginCadastro novoUsuario = new LoginCadastro(nome, email, senha);
+        usuarios[quantidadeUsuarios] = novoUsuario;
+        quantidadeUsuarios++;
+
+        System.out.println("Cadastro realizado com sucesso!");
+    }
 }
