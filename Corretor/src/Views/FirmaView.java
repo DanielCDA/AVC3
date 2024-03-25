@@ -3,6 +3,7 @@ package Corretor.src.Views;
 import Corretor.src.Models.Corretor;
 import Corretor.src.Models.Firma;
 import Corretor.src.controller.*;
+import Corretor.src.Utils.*;
 
 public class FirmaView extends BaseView implements BaseViewInterface {
     private FirmaController controller;

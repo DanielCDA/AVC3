@@ -7,6 +7,7 @@ import Corretor.src.Models.BaseModel;
 import Corretor.src.Models.Carteira;
 import Corretor.src.Models.Corretor;
 import Corretor.src.Models.Firma;
+import Corretor.src.Utils.*;
 
 
 public class CorretorView extends BaseView{
