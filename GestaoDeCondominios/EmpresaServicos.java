@@ -1,4 +1,4 @@
-puclic class EmpresaServicos{
+public class EmpresaServicos{
     private String nome;
     private String tipoServico;
 
