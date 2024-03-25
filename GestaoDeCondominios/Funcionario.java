@@ -1,11 +1,10 @@
 //package AVC3.GestaoDeCondominios;
 
 public class Funcionario {
-    public class Funcionário {
         private String nome;
         private String cargo;
     
-        public Funcionário(String nome, String cargo) {
+        public Funcionario(String nome, String cargo) {
             this.nome = nome;
             this.cargo = cargo;
         }
@@ -19,12 +18,12 @@ public class Funcionario {
         }
 
         public String getCargo(){
-            return nome;
+            return cargo;
         }
 
         public void setCargo(String cargo){
             this.cargo= cargo;
         }
-    }
+    
     
 }
