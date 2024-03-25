@@ -6,7 +6,7 @@ import Corretor.src.Models.Carteira;
 import Corretor.src.Models.Corretor;
 import Corretor.src.Models.Firma;
 
-public class CorretorVIiew extends BaseView{
+public class CorretorView extends BaseView{
     private CorretorController controller;
     private CarteiraController carteiraController;
     public CorretorView(CorretorController controller, CarteiraController carteiraController){
