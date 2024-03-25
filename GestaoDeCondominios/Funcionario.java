@@ -1,4 +1,4 @@
-package AVC3.GestaoDeCondominios;
+//package AVC3.GestaoDeCondominios;
 
 public class Funcionario {
     public class Funcionário {
