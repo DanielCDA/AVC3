@@ -14,7 +14,7 @@ public class Imovel {
         this.anoDeConstrucao = anoDeConstrucao;
     }
 
-    public imovel(){} 
+    public Imovel(){}
 
     public String precoDeVenda(){
         return precoDeVenda;
