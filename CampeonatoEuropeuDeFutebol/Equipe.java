@@ -6,7 +6,7 @@ public class Equipe {
     private String nome;
     private ArrayList<Jogador> jogadores;
 
-    //construtor
+    //construtor...
     public Equipe (String nome){
         this.nome = nome;
         this.jogadores = new ArrayList(); 
