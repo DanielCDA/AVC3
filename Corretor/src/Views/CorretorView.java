@@ -5,6 +5,7 @@ import java.util.ArrayList;
 import Corretor.src.Models.Carteira;
 import Corretor.src.Models.Corretor;
 import Corretor.src.Models.Firma;
+import Corretor.src.Models.Utils;
 
 public class CorretorView extends BaseView{
     private CorretorController controller;
