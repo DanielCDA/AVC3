@@ -14,4 +14,24 @@ public class Pessoa {
         this.contacto = contacto;
         this.email = email;
     }
+
+    public String nomeCompleto(){
+        return nomeCompleto;
+    }
+
+    public int anoNascimnto(){
+        return anoNascimnto;
+    }
+
+    public String genero(){
+        return genero;
+    }
+
+    public int contacto(){
+        return contacto;
+    }
+
+    public String email(){
+        return email;
+    }
 }
