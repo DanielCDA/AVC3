@@ -13,4 +13,20 @@ public class Imovel {
         this.endereco = endereco;
         this.anoDeConstrucao = anoDeConstrucao;
     }
+
+    public imovel(){} 
+
+    public String precoDeVenda(){
+        return precoDeVenda;
+    }
+    public void setPrecoDeVenda(String precoDeVenda){
+        this.precoDeVenda = precoDeVenda;
+    }
+
+    public String localizacao(){
+        return localizacao;
+    }
+    public void setLocalizacao(String localizacao){
+        this.localizacao = localizacao;
+    }
 }
