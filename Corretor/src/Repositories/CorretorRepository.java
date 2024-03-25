@@ -1,5 +1,7 @@
 package Corretor.src.Repositories;
 
+import java.util.ArrayList;
+
 public class CorretorRepository extends PessoaRepository<Corretor>{
     public ArrayList<Corretor> getListaDeCorretoresPorFirma(Firma firma) {
         ArrayList<Corretor> corretors = new ArrayList<>();

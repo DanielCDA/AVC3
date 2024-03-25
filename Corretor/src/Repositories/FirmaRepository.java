@@ -1,5 +1,7 @@
 package Corretor.src.Repositories;
 
+import java.util.ArrayList;
+
 public class FirmaRepository  extends BaseRepository<Firma>{
 
     public Firma getPorNome(String nome){
