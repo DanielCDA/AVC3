@@ -4,6 +4,7 @@ import Corretor.src.Models.Cliente;
 import Corretor.src.Models.Corretor;
 import Corretor.src.Models.Firma;
 import Corretor.src.Models.LoginResult;
+import Corretor.src.controller.*;
 
 public class LoginView extends BaseView implements BaseViewInterface {
     private CorretorController corretorController;
