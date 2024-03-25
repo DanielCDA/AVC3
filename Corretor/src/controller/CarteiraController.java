@@ -15,4 +15,5 @@ public class CarteiraController {
 
     public ArrayList<Carteira> getCarteirasPorCorrector(Corretor corretor) {
         return this.carteiraRepository.getCarteirasPorCorrector(corretor);
+    }
 }
