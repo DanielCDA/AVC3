@@ -41,25 +41,30 @@ public class LoginView extends BaseView implements BaseViewInterface {
 
 
         switch (opcaoSelecionada) {
-            case 1 -> {
+            case 1 ->{
                 Corretor corretor = (Corretor) this.corretorController.login(email, password);
                 return new LoginResult(corretor, opcaoSelecionada);
             }
-            case 2 -> {
+            
+            case 2 ->{
                 Firma firma = this.firmaController.login(email, password);
                 return new LoginResult(firma, opcaoSelecionada);
             }
-            case 3 -> {
+                
+            case 3 ->{
                 Cliente cliente = (Cliente) this.clienteController.login(email, password);
                 return new LoginResult(cliente, opcaoSelecionada);
             }
-            case 0 -> {
+                
+            case 0 ->{
                 System.out.println("Saindo...");
                 return null;
             }
+                
             default -> {
                 return null;
             }
+                
         }
 
     }
