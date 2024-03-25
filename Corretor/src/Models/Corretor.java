@@ -1,12 +1,12 @@
 package Corretor.src.Models;
 
 
-public class Corrector extends Pessoa {
+public class Corretor extends Pessoa {
     private String dataAdmissao;
     private String dataRecisao;
     private float salariobase;
 
-    public Corrector(String nome, String dataNascimento, String sexo, String morada, String email, int contacto
+    public Corretor(String nome, String dataNascimento, String sexo, String morada, String email, int contacto
     , String password, String bi, String dataAdmissao, String dataRecisao, float salarioBase, Firma firma){
         super(nome, dataNascimento, sexo, morada, email, contacto, password, bi, firma);
         this.dataAdmissao = dataAdmissao;
