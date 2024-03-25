@@ -4,10 +4,13 @@ public class Terreno {
     private String area;
     private String localidade;
 
+    //contsrutor
     public Terreno (String area, String localidade){
         this.area =  area;
         this.localidade =  localidade;
     }
+
+    // getters e setters
 
     public void setArea(String area){
         this.area = area;
