@@ -10,6 +10,9 @@ public class Firma extends BaseModel {
         this.email = email;
         this.password = password;
     }
+
+    public Firma(){}
+
     public void setNomeEmpresa(String nomeEmpresa){
         this.nomeEmpresa = nomeEmpresa;
     }
