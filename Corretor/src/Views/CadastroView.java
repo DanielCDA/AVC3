@@ -4,10 +4,9 @@ public class CadastroView extends BaseView implements BaseViewInterface {
 
     private FirmaView firma;
 
-   public CadastroView(FirmaView firma){
-       this.firma = firma;
-
-   }
+    public CadastroView(FirmaView firma){
+        this.firma = firma;
+    }
 
 
     public void requestCadastro(){
