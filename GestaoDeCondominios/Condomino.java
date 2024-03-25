@@ -1,4 +1,4 @@
-public class Condomino{
+public class Condomino {
     private String nome;
     private String edificio;
 
@@ -6,4 +6,9 @@ public class Condomino{
         this.nome = nome;
         this.edificio = edificio;
     }
+
+    public void getNome(){
+        return nome;
+    }
+    public String 
 }
