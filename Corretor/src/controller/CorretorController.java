@@ -20,4 +20,5 @@ public class CorretorController extends LoginController {
 
     public ArrayList<Corretor> getListaDeCorretoresPorFirma(Firma firma) {
         return this.coRepo.getListaDeCorretoresPorFirma(firma);
+    }
 }
