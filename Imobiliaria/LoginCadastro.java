@@ -5,6 +5,7 @@ public class LoginCadastro {
     protected String email;
     protected String senha;
 
+    //contrutor
     public LoginCadastro(String nome, String email, String senha) {
         this.nome = nome;
         this.email = email;
