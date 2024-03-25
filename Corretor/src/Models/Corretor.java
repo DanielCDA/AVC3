@@ -1,6 +1,6 @@
 package Corretor.src.Models;
 
-import Imobiliaria.Pessoa;
+//import Imobiliaria.Pessoa;
 
 public class Corretor extends Pessoa {
     private String dataAdmissao;
