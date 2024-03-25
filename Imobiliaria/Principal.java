@@ -37,4 +37,21 @@ public class Principal {
         }
     }
 
+    private static void realizarLogin(Scanner scanner) {
+        System.out.print("Email: ");
+        String email = scanner.next();
+        System.out.print("Senha: ");
+        String senha = scanner.next();
+
+        for (int i = 0; i < quantidadeUsuarios; i++) {
+            LoginCadastro usuario = usuarios[i];
+            if (usuario.getEmail().equals(email) && usuario.getSenha().equals(senha)) {
+                System.out.println("Login realizado com sucesso!");
+                return;
+            }
+        }
+
+        System.out.println("Email ou senha incorretos.");
+    }
+
 }
