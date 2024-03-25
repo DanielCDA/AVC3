@@ -17,4 +17,21 @@ public class Principal {
             System.out.println("2 - Cadastro");
             System.out.println("0 - Sair");
             System.out.print("Escolha uma opção: ");
+
+            int opcao = scanner.nextInt();
+
+            switch (opcao) {
+                case 0:
+                    System.out.println("Saindo...");
+                    executando = false;
+                    break;
+                case 1:
+                    realizarLogin(scanner);
+                    break;
+                case 2:
+                    realizarCadastro(scanner);
+                    break;
+                default:
+                    System.out.println("Opção inválida!");
+            }
 }
