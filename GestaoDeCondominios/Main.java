@@ -11,5 +11,10 @@ public class Main {
         Funcionario funcionario2 = new Funcionario("Ana", "Limpeza");
         condominio.adicionarFuncionario(funcionario1);
         condominio.adicionarFuncionario(funcionario2);
+
+        EmpresaServicos empresaServicos1 = new EmpresaServicos("Empresa de Elevadores", "Manutenção");
+        EmpresaServicos empresaServicos2 = new EmpresaServicos("Empresa de Segurança", "Vigilância");
+        condominio.adicionarEmpresaServicos(empresaServicos1);
+        condominio.adicionarEmpresaServicos(empresaServicos2);
     }
 }
