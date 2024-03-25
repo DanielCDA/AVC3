@@ -2,11 +2,12 @@ package Corretor.src.Views;
 
 import java.util.ArrayList;
 
+import Corretor.src.controller.*;
 import Corretor.src.Models.BaseModel;
 import Corretor.src.Models.Carteira;
 import Corretor.src.Models.Corretor;
 import Corretor.src.Models.Firma;
-import Corretor.src.Models.Utils;
+
 
 public class CorretorView extends BaseView{
     private CorretorController controller;
