@@ -1,5 +1,6 @@
 package Corretor.src.Repositories;
 
+import Corretor.src.Models.*;
 import java.util.ArrayList;
 
 public class FirmaRepository  extends BaseRepository<Firma>{
